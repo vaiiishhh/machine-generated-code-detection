@@ -1,0 +1,17 @@
+# CoDET-M4 Authorship Analysis - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+scikit-learn>=1.3.0
+
+# Optional but recommended
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# For visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0

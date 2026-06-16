@@ -1,0 +1,13 @@
+# Core ML / model inference
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.27.0        # required for device_map="auto"
+
+# HuggingFace datasets (CodeSearchNet)
+datasets>=2.18.0
+
+# Numerical / data utilities
+numpy>=1.24.0
+
+# HTTP requests (LeetCode GraphQL API)
+requests>=2.31.0
